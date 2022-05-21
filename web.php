@@ -6,9 +6,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');})->name('home');
 
-Route::get('/reading', function () {
-    return view('reading');})->name('reading');
-
 Route::get('/login', function () {
     return view('login');})->name('login');
 
@@ -26,3 +23,5 @@ Route::get('/sport', function () {
 
 Route::get('/todo', function () {
     return view('todo');})->name('todo');
+
+Route::post('/login/submit', 'App\Http\Controllers\LogController@submit')->name('login-form');
