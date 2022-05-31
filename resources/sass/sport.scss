@@ -1,0 +1,181 @@
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding:  0;
+    margin:  0;
+    font-size:  15px;
+    background-image:url(https://catherineasquithgallery.com/uploads/posts/2021-03/1614674559_9-p-fon-dlya-sportsmenov-9.jpg);
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Ubuntu', bold;
+    font-weight: 700;
+}
+
+p{
+    line-height: 1.45em;
+}
+
+.header{
+    /*background: rgba(76,189,254,1);
+    background: -moz-linear-gradient(left, rgba(76,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(76,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(left, rgba(76,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(left, rgba(76,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(left, rgba(76,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(to right, rgba(76,189,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4cbdfe', endColorstr='#3790d9', GradientType=1 );
+    */
+    padding-top: 65px;
+    padding-bottom: 141px;
+    color:#fff;
+}
+
+.adds{
+    margin-left:600px ;
+    padding-bottom: 75px;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.nav-link{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 40px;
+    color: #B7B9AB;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    padding-left: 30px;
+}
+
+.translate{
+    font-size:15px ;
+    background:transparent;
+    border:0;
+    width: 50px;
+}
+
+.offer{
+    padding-right:90px ;
+    width: 500px;
+}
+
+.title{
+    line-height:1.3em;
+}
+.title span{
+    font-size: 59px;
+}
+
+.text1{
+    margin-bottom: 46px;
+    margin-top: 30px;
+    width: 396px;
+}
+
+.section1{
+    padding-top: 109px;
+    padding-bottom:  114px;
+}
+
+.section-title{
+    font-size: 30px;
+    text-align: center;
+}
+
+.aims{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 73px;
+}
+
+.aim{
+    width: 290px;
+    background: url('../../../upLib/resources/images/UP-Sport-icon2.png') no-repeat top;
+    padding-top:90px;
+}
+
+.aim-title{
+    font-size: 19px;
+    text-align: center;
+}
+
+.aim-text{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Ubuntu', regular;
+}
+
+.aim-palma{
+    background: url('../image/UP-Sport-icon1.png') no-repeat top;
+}
+
+.aim-rocket{
+    background: url('../../../upLib/resources/images/UP-Sport-icon3.png') no-repeat top;
+}
+
+.section2{
+    background:#9DA3AB;
+    padding-top: 100px;
+    padding-bottom:  100px;
+}
+
+.forms{
+    display: flex;
+    margin-top: 60px;
+}
+
+.input{
+    font-size:18px ;
+    width:338px;
+    height: 220px;
+    margin-left: 50px;
+    border-radius: 5%;
+    padding-top:5px ;
+    border: solid 1px #84877C;
+}
+
+.btr{
+    justify-content:space-between;
+}
+
+.footer{
+    padding: 60px 0;
+    background: #003366;
+}
+
+.favour{
+    font-size: 14px;
+    font-family: 'Open Sans', regular;
+    color: #fff;
+    padding-left: 400px;
+}
+
+@media screen and (max-width: 1200px){
+    .container{
+        width: 960px;
+    }
+}
+@media screen and (max-width: 992px){
+    .container{
+        width: 720px;
+    }
+}
+@media screen and (max-width: 768px){
+    .container{
+        width: 540px;
+    }
+}
+@media screen and (max-width: 576px){
+    .container{
+        width: 90%;
+    }
+}
