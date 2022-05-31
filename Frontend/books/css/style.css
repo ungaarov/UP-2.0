@@ -4,6 +4,9 @@
   height: 90px;
   width: auto;
 }
+.mine{
+	width:100px;
+}
 .bg-green {
   background-color: #4D5656;
 }

@@ -46,9 +46,9 @@ nav img {
 }
 
 .courses{
-    width: 1100px;
+    width: 770px;
     margin: 50px 50px;
-    margin-left: 150px;
+    margin-left: 350px;
     margin-top: 150px;
     display: flex;
     justify-content:space-between;
